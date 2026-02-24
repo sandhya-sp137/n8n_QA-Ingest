@@ -33,9 +33,9 @@ It helps in organizing user queries efficiently with AI-based classification.
 ## 🔄 Workflow Architecture
 
 
-Form Submission
+[Form Submission]
 ↓
-Email Validation (is n8n.io email?)
+[Email Validation (is n8n.io email?)]
 ↓
 Trusted / Not Trusted Routing
 ↓
