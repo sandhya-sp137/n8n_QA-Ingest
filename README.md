@@ -114,7 +114,7 @@ Stores:
 
 ## 📷 Workflow Screenshot
 
-Add your workflow screenshot here.
+<img width="1663" height="784" alt="Screenshot (102)" src="https://github.com/sandhya-sp137/n8n_QA-Ingest/blob/5fe927203d8b5b1552ca8abbd79bac02ab550ccd/Screenshot%202026-02-24%20203509.png" />
 
 ---
 
