@@ -92,7 +92,7 @@ o	Database credentials
 ________________________________________
 
 <h2>📷 Workflow Screenshot</h2>
-(Add your screenshot here)
+<img width="1663" height="784" alt="Screenshot (102)" src="https://github.com/sandhya-sp137/n8n_Project-Lead-Form-Automation-using-Email/blob/da5ca1ba86ee2ab658577a4b8065319c27ae898d/Screenshot%202026-02-21%20163344.png" />
 ________________________________________
 
 <h2>📌 Future Improvements</h2>
