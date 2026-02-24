@@ -15,10 +15,10 @@ ________________________________________
 
 <h2>🛠️ Tech Stack</h2>
 
-•	⚡ n8n – Workflow Automation
-•	🤖 OpenAI Chat Model – AI Tag Generation
-•	🗄️ Database – Insert structured records
-•	📩 Form Trigger – User submission handling
+- ⚡ **n8n** – Workflow Automation  
+- 🤖 **OpenAI Chat Model** – AI Tag Generation  
+- 🗄️ **Database** – Insert structured records  
+- 📩 **Form Trigger** – User submission handling
 ________________________________________
 
 <h2>🔄 Workflow Architecture</h2>
