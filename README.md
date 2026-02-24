@@ -73,11 +73,11 @@ ________________________________________
 
 <h2>🎯 Features</h2>
 
-✅ Automated email trust validation
-✅ AI-based tagging system
-✅ Structured database storage
-✅ Scalable workflow design
-✅ Low-code automation
+-✅ Automated email trust validation
+-✅ AI-based tagging system
+-✅ Structured database storage
+-✅ Scalable workflow design
+-✅ Low-code automation
 ________________________________________
 
 <h2>🚀 How to Use</h2>
