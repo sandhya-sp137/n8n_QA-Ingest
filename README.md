@@ -1,7 +1,10 @@
-🚀 QA Ingest Automation using n8n
+<h1>🚀 QA Ingest Automation using n8n</h1>
+
 An automated workflow built using n8n that processes form submissions, verifies trusted emails, generates AI-powered tags, and stores structured data into a database.
 ________________________________________
-📌 Project Overview
+
+<h2>📌 Project Overview</h2>
+
 This workflow automates the ingestion of Q&A form submissions by:
 1.	Capturing form responses
 2.	Checking if the email belongs to a trusted domain
@@ -9,13 +12,17 @@ This workflow automates the ingestion of Q&A form submissions by:
 4.	Storing structured data into a database
 It helps in organizing user queries efficiently with AI-based classification.
 ________________________________________
-🛠️ Tech Stack
+
+<h2>🛠️ Tech Stack</h2>
+
 •	⚡ n8n – Workflow Automation
 •	🤖 OpenAI Chat Model – AI Tag Generation
 •	🗄️ Database – Insert structured records
 •	📩 Form Trigger – User submission handling
 ________________________________________
-🔄 Workflow Architecture
+
+<h2>🔄 Workflow Architecture</h2>
+
 Flow:
 Form Submission
       ↓
@@ -27,21 +34,27 @@ AI Tag Generation (OpenAI)
       ↓
 Insert Row into Database
 ________________________________________
-🧠 Workflow Explanation
-1️⃣ On Form Submission
+
+<h2>🧠 Workflow Explanation</h2>
+
+<h3>1️⃣ On Form Submission</h3>
 Triggers whenever a user submits a form.
-2️⃣ Email Check (is n8n.io email?)
+
+<h3>2️⃣ Email Check (is n8n.io email?)</h3>
 Checks whether the email belongs to a trusted domain.
-3️⃣ Trust Routing
+
+<h3>3️⃣ Trust Routing</h3>
 •	isTrusted.True
 •	isTrusted.False
-Routes the workflow accordingly.
-4️⃣ Add Tags (OpenAI Chat Model)
+Routes the workflow accordingly
+
+<h3>4️⃣ Add Tags (OpenAI Chat Model)</h3>
 Uses AI to:
 •	Analyze question
 •	Generate relevant tags
 •	Categorize content automatically
-5️⃣ Insert Row
+
+<h3>5️⃣ Insert Row</h3>
 Stores:
 •	Name
 •	Email
@@ -51,18 +64,24 @@ Stores:
 •	Trust Status
 •	Timestamps
 ________________________________________
-📊 Example Output Stored
+
+<h2>📊 Example Output Stored</h2>
+
 Name	Email	Question	Tags	isTrusted
 Sandhya Potadar	sushmapotadar123@gmail.com	how to apply n8n Ambassador jobs?	n8n, ambassador program, application process	false
 ________________________________________
-🎯 Features
+
+<h2>🎯 Features</h2>
+
 ✅ Automated email trust validation
 ✅ AI-based tagging system
 ✅ Structured database storage
 ✅ Scalable workflow design
 ✅ Low-code automation
 ________________________________________
-🚀 How to Use
+
+<h2>🚀 How to Use</h2>
+
 1.	Import the workflow JSON into n8n
 2.	Configure:
 o	OpenAI API key
@@ -71,10 +90,12 @@ o	Database credentials
 4.	Submit a test form
 5.	Monitor execution logs
 ________________________________________
-📷 Workflow Screenshot
+
+<h2>📷 Workflow Screenshot</h2>
 (Add your screenshot here)
 ________________________________________
-📌 Future Improvements
+
+<h2>📌 Future Improvements</h2>
 •	Add spam detection
 •	Add sentiment analysis
 •	Dashboard for analytics
